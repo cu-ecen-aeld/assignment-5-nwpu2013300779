@@ -1,0 +1,5 @@
+source "$BR2_EXTERNAL_PROJECT_BASE_PATH/package/aesd-assignments/Config.in"
+
+config PROJECT_BASE_FLASH_ADDR
+    hex "my-board flash address"
+    default 0x10AD
